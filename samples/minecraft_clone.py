@@ -39,6 +39,8 @@ class Voxel(Button):
 
             if key == 'right mouse down':
                 destroy(self)
+            if key == 'escape':
+                exit()
 
 
 for z in range(8):
